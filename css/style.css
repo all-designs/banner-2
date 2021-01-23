@@ -1,0 +1,253 @@
+/*--------------------------------------------------
+1. Common Styles
+--------------------------------------------------*/
+
+.img {
+    max-width: 100%;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    vertical-align: middle;
+}
+
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+span,
+a {
+    display: inline-block;
+}
+
+a,
+button {
+    -webkit-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    color: #003059;
+    font-weight: 500;
+}
+
+h1 {
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+ul,
+ol {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    color: #dddddd;
+    font-family: 'Lato', sans-serif;
+}
+
+.bg_cover {
+    background-position: center center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    width: 100%;
+    height: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/*--------------------------------------------------
+    banner
+--------------------------------------------------*/
+
+.banner {
+    height: 100vh;
+    position: relative;
+}
+
+.banner::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: hsl(36deg 100% 13% / 64%);
+}
+
+.banner .bg_img {
+    position: absolute;
+}
+
+.banner .banner_text {
+    text-align: left;
+    padding-top: 15%;
+}
+
+.banner .banner_text h1 {
+    font-size: 55px;
+    font-weight: 700;
+    text-transform: unset;
+    color: #ffffff;
+    margin-bottom: 25px;
+}
+
+.banner .banner_text p {
+    color: #F1BE5E;
+}
+
+.banner .banner_text ul {
+    color: #fff;
+}
+
+.banner .banner_text ul li.head {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.banner .banner_text ul li i {
+    margin-right: 10px;
+}
+
+.banner .contuct_form {
+    margin-top: 30%;
+}
+
+.banner .contuct_form .form_head {
+    color: #ffffff;
+    margin: 0;
+    text-align: center;
+    margin-bottom: 30px;
+    background: #F1BE5E;
+    position: relative;
+}
+
+.banner .contuct_form .form_head::after {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    right: 0;
+    border-bottom: 46px solid white;
+    border-left: 183px solid transparent;
+    border-right: 183px solid transparent;
+    transform: rotate(180deg);
+    top: 100%;
+}
+
+.banner .contuct_form .form_head span {
+    color: #fff;
+    font-size: 23px;
+    font-weight: 500;
+}
+
+.banner .contuct_form .form_head h3 {
+    color: #fff;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+
+.banner .contuct_form form {
+    text-align: left;
+    margin-top: 50px;
+}
+
+.banner .contuct_form form label {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.banner .contuct_form form input {
+    display: block;
+    border: 0;
+    width: 93%;
+    padding-left: 5px;
+    background: transparent;
+    border-bottom: 1px solid #F1BE5E;
+    margin-bottom: 25px;
+    padding-bottom: 3px;
+}
+
+.banner .contuct_form form input::placeholder {
+    color: #dddddd;
+}
+
+.banner .contuct_form form .chack_box {
+    margin-top: 10px;
+    display: flex;
+}
+
+.banner .contuct_form form .chack_box input {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.banner .contuct_form form .chack_box p {
+    font-size: 12px;
+}
+
+.banner .contuct_form form button {
+    border: 0;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: #F1BE5E;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10px;
+}
+
+
+/*--------------------------------------------------
+    Banner
+--------------------------------------------------*/
